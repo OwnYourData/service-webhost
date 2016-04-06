@@ -1,5 +1,6 @@
 # Service Webhost
 [![Build Status](https://travis-ci.org/OwnYourData/service-webhost.svg?branch=master)](https://travis-ci.org/OwnYourData/service-webhost)
+[![Dependency Status](https://david-dm.org/OwnYourData/service-webhost.svg)](https://david-dm.org/OwnYourData/service-webhost) 
 
 ## Developers
 
