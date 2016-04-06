@@ -1,0 +1,11 @@
+{
+	"name":"OwnYourData Webhost",
+	"identifier":"eu.ownyourdata.webhost",
+	"type":"host",
+	"hostings": ["html"],
+	"description":"Host for simple html-only webapplications, accessing the PIA",
+	"environment": "nodejs",
+	"installCommand": "npm install --production",
+	"startCommand": "node index.js",
+	"modules":"modules"
+}

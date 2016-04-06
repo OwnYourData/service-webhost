@@ -1,0 +1,27 @@
+{
+  "name": "eu.ownyourdata.webhost",
+  "version": "1.0.0",
+  "description": "Host for simple html-only webapplications, accessing the PIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OwnYourData",
+    "PIA",
+    "Webhost",
+    "Host"
+  ],
+  "author": "eu.ownyourdata",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2",
+    "simple-oauth2": "^0.5.1",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compress": "^1.2.0"
+  }
+}
