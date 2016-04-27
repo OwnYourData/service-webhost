@@ -54,7 +54,8 @@ function host(directory) {
 			});
 
 			app.use('/'+directory,function(req,res) {
-				res.writeHead(301, {Location: 'http://localhost:'+port});
+				var host = req.headers.host.split(':')[0];
+				res.writeHead(301, {Location: 'http://'+host+':'+port});
 				res.end();
 			});
 }
